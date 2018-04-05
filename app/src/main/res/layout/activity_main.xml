@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aula7.selectorcolores.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:text="Rojo"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Verde"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Azul"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:text="Alpha"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <SeekBar
+        android:id="@+id/id_sb_red"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="128"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <SeekBar
+        android:id="@+id/id_sb_green"
+        android:layout_width="814dp"
+        android:layout_height="21dp"
+        android:max="255"
+        android:progress="128"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <SeekBar
+        android:id="@+id/id_sb_blue"
+        android:layout_width="814dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="128"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <SeekBar
+        android:id="@+id/id_sb_alpha"
+        android:layout_width="295dp"
+        android:layout_height="17dp"
+        android:max="255"
+        android:progress="128"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.19010417" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="159dp">
+
+        <View
+            android:id="@+id/id_v_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80808080"></View>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
